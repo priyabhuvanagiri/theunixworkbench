@@ -1,30 +1,13 @@
-# This is a large heading
+# GUESS THE COUNT
 
-## This is a smaller heading
+## The Unix Workbench Project
 
-And as **imagination** bodies forth,
-The forms of things *unknown*, the poet’s pen,
-Turns them to shapes and gives to airy nothing,
-A local *habitation* and a **name**.
+This assignment is designed to test your facility for using 
+**Git and GitHub**, 
+*creating makefiles* and 
+*writing Bash programs*. 
 
-- This is
-- an unordered
-- list
 
-1. This is
-2. an ordered
-3. list
-
-Here is `some code` in the middle of a sentence.
-
-```
-This is
-a block
-of code
-```
-
-Here is how you make [a link](https://www.wikipedia.org/).
-
-![This is an image.](https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+Here is the link for my project [click here](https://www.wikipedia.org/](https://github.com/priyabhuvanagiri/theunixworkbench).
 
 nano README.md
