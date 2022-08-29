@@ -1,13 +1,16 @@
 all: README.md
 
 README.md: guessinggame.sh
-        echo "## The Unix Workbench course assignment" > README.md
-        echo "*by Yellow Kouakou Coursera Learner.*" >> README.md
-        echo "\n**Description**: make a program called *guessinggame.sh*. This program should continuously ask the user to guess the number of files in the current directory, until they guess the correct number. The user is informed if their guess is too high or too low. Once the user guesses the correct number of files in the current directory they should be congratulated." >> README.md
-        echo -n "\n**Make date**: " >> README.md
-        date >> README.md
-        echo -n "\n**Number of lines in guessinggame.sh:** " >> README.md
+        echo "# GUESS THE COUNT > README.md
+        echo "## The Unix Workbench Project*" >> README.md
+        echo "\nThis assignment is designed to test your facility for using 
+**Git and GitHub**, 
+*creating makefiles* and 
+*writing Bash programs*." >> README.md
+
+        echo -n "Here is the link for my project [a link](https://github.com/priyabhuvanagiri/theunixworkbench)." >> README.md
         grep -c '' guessinggame.sh >> README.md
 
 clean:
         rm README.md
+
