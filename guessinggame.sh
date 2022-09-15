@@ -1,18 +1,18 @@
-function guess {
-	echo "Enter how many files are in the current directory: "
-	read value
+function guess_files {
+	echo "Enter how many files are there in the current directory: "
+	read guess_num
 	files=$(ls -a| wc -l | xargs)
-	while [[ $value != $files ]]
+	while [[ $guess_num != $files ]]
 	do
-		if [[ $value > $files ]]
+		if [[ $guess_num < $files ]]
 		then	
-			echo "Too large. Please try again!"
-			read value
+			echo "Guessed file count is low...Please try again! "
+			read guess_num
 		else
-			echo "Too small. Please try again!"
-			read value
+			echo "Guessed file count is high...Please try again!"
+			read guess_num
 		fi
 	done
-	echo "Congratulations, you guess is correct!!!"
+	echo "Hurry....Congratulations, your guess is correct!!!"
 }
-guess
+guess_files
